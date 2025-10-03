@@ -2,14 +2,14 @@
 
 body {
     font-family: Outfit;
-    background-color: aqua;
+    background-color: rgb(250, 248, 241);
 }
 
 .app-header {
     margin:0;
-    background-color: blue;
+    background-color: rgb(52, 101, 109);
     padding: 10px;
-    color: white;
+    color: rgb(250, 248, 241);
     text-align: center;
 }
 
@@ -18,20 +18,21 @@ body {
 }
 
 .navigation{
-    background-color: blue;
+    background-color: rgb(52, 101, 109);
     margin-top: 10px;
-    color: white;
+    color: (250, 248, 241);
     text-align: center;
     margin-bottom: 10px;
 }
 .nav-link{
-    background-color: chartreuse;
+    background-color:rgb(250, 234, 177);
     padding: 2px 8px;
     border-radius: 5px;
+    margin:1px;
 }
 
 .nav-link:hover{
-    background-color: yellow;
+    background-color: rgb(225, 232, 172);
 }
 
 a{
@@ -45,4 +46,13 @@ a{
     justify-content: center;
     padding: 10px;
 
+}
+
+.card{
+    background-color: rgb(250, 234, 177);
+    padding:10px;
+    margin:5px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: justify;
 }

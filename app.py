@@ -4,7 +4,7 @@ from dash import html, dcc
 app = dash.Dash(__name__, use_pages=True)
 
 app.layout = html.Div([
-    html.H1("Hello World", className="app-header"),
+    html.H1("Curso Técnicas de Modelamiento", className="app-header"),
     html.Div([
         html.Div([
             dcc.Link(f"{page['name']}", href=page["relative_path"], className='nav-link')
