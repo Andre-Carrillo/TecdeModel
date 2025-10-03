@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+    font-family: Outfit;
+    background-color: aqua;
+}
+
+.app-header {
+    margin:0;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.app-container{
+    padding:0;
+}
+
+.navigation{
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nav-link{
+    background-color: chartreuse;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
