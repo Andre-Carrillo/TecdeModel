@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dash-app
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    # Replace 'app' with your Python file's name (without the .py extension)
+    # For example, if your main file is called 'main.py', use startCommand: gunicorn main:app
+    branches:
+      - main  # deploy from the 'main' branch
