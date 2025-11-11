@@ -8,4 +8,4 @@ services:
     # Replace 'app' with your Python file's name (without the .py extension)
     # For example, if your main file is called 'main.py', use startCommand: gunicorn main:app
     branches:
-      - main  # deploy from the 'main' branch
+      - master  # deploy from the 'main' branch
